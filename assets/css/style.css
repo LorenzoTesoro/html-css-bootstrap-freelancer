@@ -1,0 +1,15 @@
+
+.debug header{
+    height:100px;
+    background-color: blue;
+}
+
+.debug .col{
+    background-color: red;
+    height:50px;
+}
+
+.debug [class^="col-"]{
+    background-color: red;
+    height:50px;
+}
