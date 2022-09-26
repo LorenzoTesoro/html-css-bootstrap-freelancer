@@ -1,7 +1,39 @@
+/* #region common rules */
 
+section{
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+/* #endregion common rules */
+
+
+
+/* #region utilities */
+.py{
+    padding-right:0.5rem;
+    padding-left:0.5rem;
+}
+
+.wrapper{
+    padding-right:0.5rem;
+    padding-left:0.5rem;
+}
+
+.light_green{
+    background-color: lightgreen;
+}
+.footer_top{
+    background-color: lightgray;
+}
+/* #endregion utilities */
+
+
+
+
+
+/* #region debug */
 .debug header{
     height:100px;
-    background-color: blue;
 }
 
 .debug .col{
@@ -12,4 +44,16 @@
 .debug [class^="col-"]{
     background-color: red;
     height:50px;
+    border: 1px solid black;
 }
+
+.debug .footer_top{
+    height:150px;
+}
+.debug .footer_copyright{
+    background-color: black;
+    color:white;
+    height:100px;
+}
+
+/* #endregion debug */
