@@ -23,34 +23,23 @@ p{
     font-size: 1.5rem;
 } */
 
-
 /* #endregion common rules */
 
 /* #region utilities */
-
-
-.wrapper{
-    padding-right:0.5rem;
-    padding-left:0.5rem;
+.fs_small{
+    font-size:0.65rem;
 }
-
 /* #endregion utilities */
 
 /* #region header */
 header{
     background-color: var(--clr-secondary-dark);
 }
-
-header .nav-link{
-    color:white;
-} 
 /* #endregion header */
 
 /* #region main */
-
-section.jumbotron{
+section.jumbotron, section.about{
     background-color: var(--clr-primary);
-    color:var(--clr-light);
 }
 #jumbotron_container{
     width:200px;
@@ -58,5 +47,8 @@ section.jumbotron{
 .container.border{
     max-width: 8rem;
 }
-/* /.section jumbotron */
+section.about .border{
+    width:10%;
+    max-width: 4rem;
+}
 /* #endregion main */
