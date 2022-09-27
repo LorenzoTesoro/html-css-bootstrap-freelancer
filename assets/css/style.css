@@ -6,8 +6,10 @@
     --clr-dark:black;
     --clr-light:white;
 }
-
-h1{
+img{
+    max-width: 100%;
+}
+/* h1{
     font-size: 4rem;
 }
 h2{
@@ -19,7 +21,7 @@ p{
 
 .jumbotron .details{
     font-size: 1.5rem;
-}
+} */
 
 header, section, .footer_top, .footer_copyright{
     padding-top:1rem;
@@ -40,46 +42,27 @@ header, section, .footer_top, .footer_copyright{
 
 /* #endregion utilities */
 
-/* #region debug */
-.debug header{
-    height:100px;
-}
-
-.debug .col{
-    background-color: red;
-    height:50px;
-}
-
-.debug [class^="col-"]{
-    background-color: red;
-    height:50px;
-    border: 1px solid black;
-}
-
-.debug .footer_top{
-    height:150px;
-}
-.debug .footer_copyright{
-    background-color: black;
-    color:white;
-    height:100px;
-}
-.debug .caso{
-    height:40px;
-    background-color: yellow;
-}
-/* #endregion debug */
-
 /* #region header */
 header{
     background-color: var(--clr-secondary-dark);
 }
-header .navbar-brand{
-    font-size: 1.625rem;
-}
+
 header .nav-link{
     color:white;
-    font-size:1.125rem;
 } 
-
 /* #endregion header */
+
+/* #region main */
+
+section.jumbotron{
+    background-color: var(--clr-primary);
+    color:var(--clr-light);
+}
+#jumbotron_container{
+    width:200px;
+}
+.jumbotron .container.border{
+    max-width: 8rem;
+}
+/* /.section jumbotron */
+/* #endregion main */
