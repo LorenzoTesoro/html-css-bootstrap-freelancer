@@ -23,17 +23,11 @@ p{
     font-size: 1.5rem;
 } */
 
-header, section, .footer_top, .footer_copyright{
-    padding-top:1rem;
-    padding-bottom:1rem;
-}
+
 /* #endregion common rules */
 
 /* #region utilities */
-.py{
-    padding-right:0.5rem;
-    padding-left:0.5rem;
-}
+
 
 .wrapper{
     padding-right:0.5rem;
@@ -61,7 +55,7 @@ section.jumbotron{
 #jumbotron_container{
     width:200px;
 }
-.jumbotron .container.border{
+.container.border{
     max-width: 8rem;
 }
 /* /.section jumbotron */
