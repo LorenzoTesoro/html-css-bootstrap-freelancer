@@ -19,6 +19,10 @@ img{
 .border_width_lg{
     max-width: 8rem;
 }
+.square{
+    width:30px;
+    height:30px;
+}
 /* #endregion utilities */
 
 /* #region header */
@@ -35,3 +39,12 @@ section.jumbotron, section.about, input[type="submit"], .contacts .btn{
     background-color: var(--clr-primary);
 }
 /* #endregion main */
+
+/* #region footer */
+.footer_top{
+    background-color: var(--clr-secondary-dark);
+}
+.footer_top span {
+    color:var(--clr-primary);
+}
+/* #endregion footer */
