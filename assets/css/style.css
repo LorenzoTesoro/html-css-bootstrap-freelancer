@@ -9,25 +9,15 @@
 img{
     max-width: 100%;
 }
-/* h1{
-    font-size: 4rem;
-}
-h2{
-    font-size:3rem;
-}
-p{
-    font-size:1.375rem;
-}
-
-.jumbotron .details{
-    font-size: 1.5rem;
-} */
-
 /* #endregion common rules */
 
 /* #region utilities */
-.fs_small{
-    font-size:0.65rem;
+.border_width_sm{
+    width:10%;
+    max-width: 4rem;
+}
+.border_width_lg{
+    max-width: 8rem;
 }
 /* #endregion utilities */
 
@@ -38,17 +28,10 @@ header{
 /* #endregion header */
 
 /* #region main */
-section.jumbotron, section.about{
-    background-color: var(--clr-primary);
-}
 #jumbotron_container{
     width:200px;
 }
-.container.border{
-    max-width: 8rem;
-}
-section.about .border{
-    width:10%;
-    max-width: 4rem;
+section.jumbotron, section.about, input[type="submit"], .contacts .btn{
+    background-color: var(--clr-primary);
 }
 /* #endregion main */
